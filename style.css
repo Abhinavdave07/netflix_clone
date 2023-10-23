@@ -65,24 +65,27 @@ nav button{
 
 .email input{
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 20px;
     align-items: center;
     color: #fff;
     background-color: black;
     opacity: 0.5;
     padding: 10px 10px;
     border: 1px solid #fff;
+    padding-right: 80px;
     
 
 }
 
 .email button{
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 20px;
     align-items: center;
     background-color: #db0001;
     color: #fff;
-    padding: 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5%;
+    border-color: #db0001;
 }
 
 input::placeholder{
