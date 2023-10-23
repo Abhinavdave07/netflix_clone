@@ -1,8 +1,40 @@
-h1{
-    color: green;
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    box-sizing: border-box;
+}
+.features{
+    padding: 50px 12%;
+    font-size: 20px;
+    background-color: black;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.image{
+    margin-left: 30px; 
 }
 
-body{
-background-color: blue;
+.text_col1,.text_col3 {
+    color:#fff;
+    font-size: 40px;
+    margin-top: 200px;
+    flex-basis: 50%;
+    margin-top: 25px;
 }
+h5{
+    font-size:25px;
+    font-weight:500;
+}
+.text_col2,.text_col4{
+    color:#fff;
+    font-size: 40px;
+    margin-left:600px;
+    margin-top: 200px;
+    flex-basis: 50%;
+    margin-top: 25px;
+}
+
