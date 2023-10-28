@@ -231,21 +231,21 @@ input[type="radio"]{
 
 .accord li label:hover{
     background-color: rgb(80, 80, 80);
-    transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.5s;
 }
 
 
-.accord input[type="radio"]:checked + label + .content{
+.accord input[type="radio"]:hover + label + .content{
    max-height: 600px;
    padding: 30px 30px;
    
 }
 
-.accord input[type="radio"]:checked + label::after{
-    transform: rotate(45deg);
+.accord input[type="radio"]:hover + label::after{
+    transform: rotate(45deg) ;
 }
 
-.drop p{
+.drop .Ready{
     color: #fff;
     text-align: center;
 }
@@ -257,6 +257,7 @@ input[type="radio"]{
     color: #fff;
    
 }
+
 .email_2 input{
     margin-top: 10px;
     font-size: 20px;
@@ -268,9 +269,9 @@ input[type="radio"]{
     border: 1px solid #fff;
     padding-right: 20px;
     font-size: 20px;
-    
-
 }
+
+
 
 
 .email_2 button{
@@ -289,34 +290,63 @@ input[type="radio"]{
 }
 
 
-.footer{
-    padding: 50px 15% 10px;
-    color: #777;
-
+footer{
+    background-color: black;
 }
 
-.footer h2{
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 30px;
+.quick_Links{
+    list-style: none;
+   padding-top: 10px;
+  
 }
-
-.footer .col{
-    flex-basis: 25%;
-    flex-grow: 1;
-    margin-bottom: 20px;
-
+.help{
+    display: flex;
+    color: #808080;
+    font-size: 13px;
+    /* margin-left: 20px; */
+    padding-left: 250px;
+    gap: 90px;
+    margin-top: 20px;
+    cursor: pointer;
 }
-
-.footer .col{
-    display: inline-block;
+.service{
+    height: 15px;
+    padding-left: 9px;
+    padding-top: 5px;
+    margin-left: 241px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding-right: 5px;
+    width: 100px;
+    
+    color: #808080;
+}
+.service:hover{
+    color: white;
+}
+.service a{
+    color: #808080;
     text-decoration: none;
-    color:#777;
-    font-size: 14px;
-    margin-bottom: 10px;
+}
+.picture img:hover{
+    /* display: none; */
+    width: 300px;
+    height: 200px;
+    margin-top: -20px;
+    border: 2px solid rgba(102, 100, 95, 0);
+    border-radius: 5%;
+   
+    transition: ease-in 0.5s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8); 
+    
+    
+    
+}
+.quick_Links li:hover{
+    text-decoration: none;
+    color: #fff;
 }
 
-.footer .row2{
-    align-items: flex-start;
-    padding: 10px 0;
+.quick_Links a{
+    color: #808080;
 }
