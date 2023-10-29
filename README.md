@@ -37,10 +37,6 @@ cd netflix-clone
 
 3. Customize the content by modifying the HTML and CSS to add your own movies, images, and descriptions.
 
-## Demo
-
-To see a live demo of the Netflix clone project: [click here](http://127.0.0.1:5500/netflix_clone/index.html)
-
 ## Features
 
 - Responsive design, making it suitable for different screen sizes.
@@ -58,16 +54,12 @@ To see a live demo of the Netflix clone project: [click here](http://127.0.0.1:5
 ![App Screenshot](ss7.png)
 
 
-
-
 ## How to contribute
 
 1. Take a look at the existing [issues](https://github.com/Abhinavdave07/netflix_clone/issues).
 2. [Fork the Repo](https://github.com/Abhinavdave07/netflix_clone/fork), create a branch for any issue that you are working on and commit your work.
 3. Create a [Pull Request](https://github.com/Abhinavdave07/netflix_clone/pulls) (PR), which will be promptly reviewed and given suggestions for improvements by the community.
 4. Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes that are included in your commits.
-
-
 
 ## How to create a pull request
 
