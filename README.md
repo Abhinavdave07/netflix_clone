@@ -56,7 +56,7 @@ To see a live demo of the Netflix clone project: [click here](http://127.0.0.1:5
 ![App Screenshot](ss5.png)
 ![App Screenshot](ss6.png)
 ![App Screenshot](ss7.png)
-![App Screenshot](ss8.png)
+
 
 
 
