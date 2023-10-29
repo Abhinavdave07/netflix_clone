@@ -48,7 +48,14 @@ nav button{
     margin-left: 10px;
     
 }
-
+ .b1:hover{
+    background-color: black;
+    transition: ease-in-out 0.3s;
+}
+ .b2:hover{
+    background-color: #ba0505;
+    transition: ease-in-out 0.3s;
+}
 .b1{
     display: inline-flex;
     border: 0.1px solid #fff;
@@ -88,10 +95,26 @@ nav button{
     padding: 10px 10px 10px 10px;
     border-radius: 5%;
     border-color: #db0001;
+   
 }
-
+.email button a{
+    text-decoration: none;
+}
+.Centre  a{
+    text-decoration: underline;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 2px;
+    text-align: left;
+    align-items: flex-start;
+}
+.Centre a:hover{
+    opacity: 0.8;
+    transition: ease-in-out 0.5s;
+}
 .email button:hover{
     background-color: #ba0505;
+    transition: ease-in-out 0.3s;
 }
 
 
@@ -284,9 +307,13 @@ input[type="radio"]{
     border-radius: 5%;
     border-color: #db0001;
 }
-
+.email_2 button a{
+    text-decoration: none;
+    color: #fff;
+}
 .email_2 button:hover{
     background-color: #ba0505;
+    transition: ease-in-out 0.3s;
 }
 
 
@@ -321,27 +348,15 @@ footer{
     
     color: #808080;
 }
-.service:hover{
-    color: white;
-}
+
 .service a{
     color: #808080;
     text-decoration: none;
 }
-.picture img:hover{
-    /* display: none; */
-    width: 300px;
-    height: 200px;
-    margin-top: -20px;
-    border: 2px solid rgba(102, 100, 95, 0);
-    border-radius: 5%;
-   
-    transition: ease-in 0.5s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8); 
-    
-    
-    
+.service a:hover{
+    color: white;
 }
+
 .quick_Links li:hover{
     text-decoration: none;
     color: #fff;
@@ -349,4 +364,9 @@ footer{
 
 .quick_Links a{
     color: #808080;
+}
+
+.quick_Links a:hover{
+    color: #fff;
+    transition: ease-in-out 0.5s;
 }
