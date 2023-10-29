@@ -36,6 +36,9 @@ cd netflix-clone
 2. Explore the Netflix clone. You can click on movie titles to see more details.
 
 3. Customize the content by modifying the HTML and CSS to add your own movies, images, and descriptions.
+## Demo
+
+To see the demo of the project: [clickhere](https://netflix-clone-nu-orcin.vercel.app/)
 
 ## Features
 
