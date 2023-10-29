@@ -107,5 +107,7 @@ git push origin YourBranchName
 10. Create a [Pull Request](https://github.com/Abhinavdave07/netflix_clone/pulls)!
 
 11. Congratulations! You've made your first contribution! 
+## Licence
 
+This project is licensed under the MIT License -[LICENSE](https://opensource.org/license/mit/) 
 
